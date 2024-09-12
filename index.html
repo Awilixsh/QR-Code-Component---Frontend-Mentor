@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+	@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+	body{
+		background-color: hsl(212, 45%, 89%);
+	}
+	.container{
+		background-color: hsl(0, 0%, 100%);
+		max-width: 360px;
+		height: 540px;
+		border-radius: 10px;
+		display: flex;
+		flex-flow: column wrap;
+		align-items: center;
+		justify-content: center;
+		margin: 10px;
+	}
+	img{
+		max-width: 90%;
+		border-radius: 10px;
+	}
+	.inner-container{
+		width: 70%;
+		margin-top: 14px;
+		font-family: Outfit;
+	}
+	h1{
+		font-size: 22px;
+		font-weight: bold;
+		text-align: center;
+		color: hsl(218, 44%, 22%);
+	}
+	p{
+		font-size: 15px;
+		text-align: justify;
+		align-justify: center;
+		text-align: center;
+		color: hsl(216, 15%, 48%);
+	}
+	@media screen and (min-width: 391px){
+		.container{
+			margin: 20vh auto auto auto;
+		}
+	}
+	@media screen and (max-width: 390px){
+		.container{
+			margin: 10vh auto auto auto;
+		}
+	}
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+	<div class = 'container'>
+		<img src = './images/image-qr-code.png'>
+		<div class = 'inner-container'>
+			<h1>Improve your front-end skills by building projects</h1>
+			<p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+		</div>
+	</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Awilixsh</a>.
+  </div>
+</body>
+</html>
